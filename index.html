@@ -26,7 +26,7 @@
 
             <nav class="navbar navbar-expand-md bg-dark bg-opacity-50 border-bottom border-1 border-white fixed-top" data-bs-theme="dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Logo</a>
+                    <div><a class="navbar-brand" href="#"><img class="logo" src="./img/logo.svg" alt=""></a></div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mi_menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -43,6 +43,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Cultura y eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tuning</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contácto</a>
@@ -68,18 +71,215 @@
                     </div>
                 </div>
             </div>
-
+        </header>
             <!-- sección Introducción -->
 
+            <div class="container">
+                <div class="row-12">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./img/cocheprueba1.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                                        <a class="navbar-brand" href="#">Historia</a>
+                                        <ul class="nav nav-pills">
+                                          <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hito</a>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#scrollspyHeading1">First</a></li>
+                                              <li><a class="dropdown-item" href="#scrollspyHeading2">Second</a></li>
+                                              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                              <li><hr class="dropdown-divider"></li>
+                                              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </nav>
+                                      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                                        <h4 id="scrollspyHeading1">First heading</h4>
+                                        <p>...</p>
+                                        <h4 id="scrollspyHeading2">Second heading</h4>
+                                        <p>...</p>
+                                        <h4 id="scrollspyHeading3">Third heading</h4>
+                                        <p>...</p>
+                                        <h4 id="scrollspyHeading4">Fourth heading</h4>
+                                        <p>...</p>
+                                        <h4 id="scrollspyHeading5">Fifth heading</h4>
+                                        <p>...</p>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Sección catalogo deportivos famosos -->
+            
+            <div class="container">
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/cocheprueba.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/cocheprueba1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/cocheprueba2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/cocheprueba3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Cultura y eventos deportivos -->
+            
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="2500">
+                            <img src="./img/cocheprueba.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2500">
+                            <img src="./img/cocheprueba1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2500">
+                            <img src="./img/cocheprueba2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
 
             <!-- Personalización y tuning deportivo -->
 
             <!-- Contacto -->
 
-        </header>
+            <div class="container">
+                <div class="row">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Usuario</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">State</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Hombre</option>
+                                <option>Mujer</option>
+                                <option>Otro</option>
+
+                            </select>
+                            <div class="invalid-feedback">
+                            Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
