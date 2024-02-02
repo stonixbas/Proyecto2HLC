@@ -29,10 +29,21 @@
     border-radius: 15px;
 }
 
-.card {
+.card_famosos {
     transition: transform 0.3s;
+    border-radius: 15px;
 }
 
-.card:hover {
+.card_famosos > img {
+    padding: 3%;
+    border-radius: 15px;
+}
+
+.card_famosos:hover {
     transform: scale(0.9);
+}
+
+.hitos {
+    height: 500px;
+    width: auto;
 }
