@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Proyecto HLC</title>
 </head>
     <body>
@@ -83,7 +84,7 @@
                 <div class="col">
                     <div class="card-body py-5">
                         <div class="col mx-auto accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="750">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     Récord de Velocidad de Thrust2 (1983)
@@ -94,7 +95,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     Rally Safari 1985 - Victoria de Audi Quattro
@@ -105,7 +106,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                     Lanzamiento del Ford Taurus (1985)
@@ -116,7 +117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
                                     Récord de Velocidad del Bugatti EB110 (1991)
@@ -127,7 +128,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2500">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
                                     Lanzamiento del McLaren F1 (1992)
@@ -138,7 +139,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="3000">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
                                         Toyota Prius y la Popularización de los Vehículos Híbridos (1997)
@@ -160,8 +161,8 @@
         <div class="container" id="catalogo">
             <div class="row">
                 <h1 class="py-3 titulo_seccion">Deportivos famosos</h1>
-                <div class="row row-cols-1 w-cols-md-2 row-cols-lg-4 py-5 mx-auto">
-                    <article class="col my-3 ">
+                <div class="row row-cols-1 w-cols-md-2 row-cols-lg-4 py-5 mx-auto" >
+                    <article class="col my-3" data-aos="flip-left" data-aos-duration="0000">
                         <div class="card_famosos shadow">
                             <img src="./img/cocheprueba.jpg" class="card-img-top" alt="Imagen 1">
                             <div class="card-body text-center">
@@ -172,7 +173,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="col my-3 ">
+                    <article class="col my-3" data-aos="flip-left" data-aos-duration="1000">
                         <div class="card_famosos shadow">
                             <img src="./img/cocheprueba1.jpg" class="card-img-top" alt="Imagen 1">
                             <div class="card-body text-center">
@@ -183,7 +184,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="col my-3 ">
+                    <article class="col my-3" data-aos="flip-left" data-aos-duration="2000">
                         <div class="card_famosos shadow">
                             <img src="./img/cocheprueba2.jpg" class="card-img-top" alt="Imagen 1">
                             <div class="card-body text-center">
@@ -194,7 +195,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="col my-3 ">
+                    <article class="col my-3" data-aos="flip-left" data-aos-duration="3000">
                         <div class="card_famosos shadow">
                             <img src="./img/cocheprueba3.jpg" class="card-img-top" alt="Imagen 1">
                             <div class="card-body text-center">
@@ -215,7 +216,9 @@
         <div class="container" id="eventos">
             <div class="row">
                 <h1 class="py-3 titulo_seccion">Eventos mas importantes del automovilismo</h1>
-                <div id="carouselExampleCaptions" class="carousel slide carousel-fade mx-auto col-10 py-5" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade mx-auto col-10 py-5" data-bs-ride="carousel" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -263,40 +266,40 @@
             <div class="row">
                 <h1 class="py-3 titulo_seccion">Tuning</h1>
                 <div class="row mb-3 g-3">
-                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-down-right">
                         <img src="./img/cocheprueba.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-down">
                         <img src="./img/cocheprueba1.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-down">
                         <img src="./img/cocheprueba2.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-down-left">
                         <img src="./img/cocheprueba3.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-right">
                         <img src="./img/cocheprueba.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="flip-left">
                         <img src="./img/cocheprueba1.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="flip-right">
                         <img src="./img/cocheprueba2.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-left">
                         <img src="./img/cocheprueba3.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-up-right">
                         <img src="./img/cocheprueba.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-up">
                         <img src="./img/cocheprueba1.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-up">
                         <img src="./img/cocheprueba2.jpg" class="img-fluid">
                     </a>
-                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3">
+                    <a href="./img/cocheprueba3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-3 col-12 col-md-6 col-xl-3" data-aos="fade-up-left">
                         <img src="./img/cocheprueba3.jpg" class="img-fluid">
                     </a>
                 </div>
@@ -354,7 +357,13 @@
         </footer>
 
         <script src="./js/bootstrap.bundle.min.js"></script>
+        
         <!-- Bootstrap Bundle with Popper.js and Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js" integrity="sha256-zFbZ1Ykp6EzYM4IOMstebe2Gqoxz8ML85LP4JGcA+eA=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
