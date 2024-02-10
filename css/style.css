@@ -54,9 +54,16 @@
     border-radius: 15px;
 }
 
+.tarjeta_introduccion {
+    border-radius: 15px;
+}
+
 .card_famosos {
     transition: transform 0.3s;
     border-radius: 15px;
+    height: 100%;
+    width: auto;
+    background-color: aqua;
 }
 
 .card_famosos > img {
@@ -64,8 +71,26 @@
     border-radius: 15px;
 }
 
+.card-body > p {
+    height: 100%;
+    text-align: justify;
+    margin: 10px 20px;
+} 
+
+.card-body > a {
+    margin: 5%;
+}
+
 .card_famosos:hover {
     transform: scale(0.9);
+}
+
+.img_eventos {
+    border-radius: 10px;
+}
+
+.img-fluid {
+    border-radius: 10px;
 }
 
 .hitos {
