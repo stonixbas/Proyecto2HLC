@@ -54,6 +54,12 @@
     border-radius: 15px;
 }
 
+.boton_tarjeta {
+    display: block;
+    position: relative;
+    
+}
+
 .tarjeta_introduccion {
     border-radius: 15px;
 }
@@ -67,6 +73,8 @@
 }
 
 .card_famosos > img {
+    height: auto;
+    width: auto;
     padding: 3%;
     border-radius: 15px;
 }
